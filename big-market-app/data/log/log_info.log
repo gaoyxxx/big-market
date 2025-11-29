@@ -1,0 +1,20 @@
+25-11-29.17:06:51.014 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_311 on GaoYuXuan with PID 52920 (started by gaoyx in D:\workspace\java_workspace\big-market\big-market-app)
+25-11-29.17:06:51.015 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+25-11-29.17:06:51.052 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 6.2.5.Final
+25-11-29.17:06:52.699 [main            ] WARN  RocketMQAutoConfiguration - The necessary spring property 'rocketmq.name-server' is not defined, all rockertmq beans creation are skipped!
+25-11-29.17:06:53.054 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 2.369 seconds (JVM running for 3.007)
+25-11-29.17:06:53.263 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-11-29.17:06:54.493 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-11-29.17:06:54.523 [main            ] INFO  AwardDaoTest           - 测试结果：[Award(id=null, awardId=101, awardKey=user_credit_random, awardConfig=1,100, awardDesc=用户积分【优先透彻规则范围，如果没有则走配置】, createTime=null, updateTime=null), Award(id=null, awardId=102, awardKey=openai_use_count, awardConfig=5, awardDesc=OpenAI增加使用次数, createTime=null, updateTime=null), Award(id=null, awardId=103, awardKey=openai_use_conut, awardConfig=10, awardDesc=OpenAI增加使用次数, createTime=null, updateTime=null)]
+25-11-29.17:06:54.530 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-11-29.17:06:54.533 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-11-29.17:08:16.642 [main            ] INFO  AwardDaoTest           - Starting AwardDaoTest using Java 1.8.0_311 on GaoYuXuan with PID 47892 (started by gaoyx in D:\workspace\java_workspace\big-market\big-market-app)
+25-11-29.17:08:16.643 [main            ] INFO  AwardDaoTest           - The following 1 profile is active: "dev"
+25-11-29.17:08:16.657 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 6.2.5.Final
+25-11-29.17:08:18.287 [main            ] WARN  RocketMQAutoConfiguration - The necessary spring property 'rocketmq.name-server' is not defined, all rockertmq beans creation are skipped!
+25-11-29.17:08:18.644 [main            ] INFO  AwardDaoTest           - Started AwardDaoTest in 2.319 seconds (JVM running for 2.916)
+25-11-29.17:08:18.795 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-11-29.17:08:19.943 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-11-29.17:08:19.973 [main            ] INFO  AwardDaoTest           - 测试结果：[Award(id=1, awardId=101, awardKey=user_credit_random, awardConfig=1,100, awardDesc=用户积分【优先透彻规则范围，如果没有则走配置】, createTime=2023-12-09T11:07:06, updateTime=2025-11-29T07:57:44), Award(id=2, awardId=102, awardKey=openai_use_count, awardConfig=5, awardDesc=OpenAI增加使用次数, createTime=2023-12-09T11:07:06, updateTime=2023-12-09T11:12:59), Award(id=3, awardId=103, awardKey=openai_use_conut, awardConfig=10, awardDesc=OpenAI增加使用次数, createTime=2023-12-09T11:07:06, updateTime=2023-12-09T11:12:59)]
+25-11-29.17:08:19.980 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-11-29.17:08:19.983 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--对应哪个Dao-->
+<mapper namespace="com.gaoyxxx.infrastructure.persistent.dao.IAwardDao">
+
+    <resultMap id="dataMap" type="com.gaoyxxx.infrastructure.persistent.po.Award">
+        <!-- 左侧数据库字段名，右侧PO属性名-->
+        <id column="id" property="id"/>
+        <id column="award_id" property="awardId"/>
+        <id column="award_key" property="awardKey"/>
+        <id column="award_config" property="awardConfig"/>
+        <id column="award_desc" property="awardDesc"/>
+        <id column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+
+    <select id="queryAwardList" resultMap="dataMap">
+        SELECT *
+        FROM award
+        limit 3
+    </select>
+
+</mapper>

@@ -1,0 +1,2 @@
+25-11-29.17:06:52.699 [main            ] WARN  RocketMQAutoConfiguration - The necessary spring property 'rocketmq.name-server' is not defined, all rockertmq beans creation are skipped!
+25-11-29.17:08:18.287 [main            ] WARN  RocketMQAutoConfiguration - The necessary spring property 'rocketmq.name-server' is not defined, all rockertmq beans creation are skipped!
